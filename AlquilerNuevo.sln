@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlquilerNuevo.Server", "AlquilerNuevo\Server\AlquilerNuevo.Server.csproj", "{63EBEF4B-B418-4FA7-82B1-115594790069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlquilerNuevo.Server", "AlquilerNuevo\Server\AlquilerNuevo.Server.csproj", "{63EBEF4B-B418-4FA7-82B1-115594790069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlquilerNuevo.Client", "AlquilerNuevo\Client\AlquilerNuevo.Client.csproj", "{EAAE71B6-689A-4CE3-8B67-15218548C8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlquilerNuevo.Client", "AlquilerNuevo\Client\AlquilerNuevo.Client.csproj", "{EAAE71B6-689A-4CE3-8B67-15218548C8B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlquilerNuevo.Shared", "AlquilerNuevo\Shared\AlquilerNuevo.Shared.csproj", "{6A4F4BD8-440F-4263-B54E-D8361608BC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlquilerNuevo.Shared", "AlquilerNuevo\Shared\AlquilerNuevo.Shared.csproj", "{6A4F4BD8-440F-4263-B54E-D8361608BC9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alquiler.BD", "Alquiler.BD\Alquiler.BD.csproj", "{EBC43D9E-3846-4952-8600-E668236F29B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alquiler.BD", "Alquiler.BD\Alquiler.BD.csproj", "{EBC43D9E-3846-4952-8600-E668236F29B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
