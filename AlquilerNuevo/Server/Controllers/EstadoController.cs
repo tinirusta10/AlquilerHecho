@@ -54,11 +54,11 @@ namespace AlquilerNuevo.Server.Controllers
 
 
         [HttpPut("{id:int}")]
-        public ActionResult Put(int id, [FromBody] Estado estado)
+        public ActionResult Put(int id, [FromBody] Estado Estad)
         {
 
 
-            if (id != estado.Id)
+            if (id != Estad.Id)
             {
                 return BadRequest("No existe el producto");
             }
@@ -72,7 +72,7 @@ namespace AlquilerNuevo.Server.Controllers
                 return NotFound("No existe el producto");
             }
 
-            estado.Estados = est.Estados;
+            est.Estados = Estad.Estados;
 
 
 

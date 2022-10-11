@@ -17,7 +17,7 @@ namespace Alquiler.BD.Data.Entidades
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(8, ErrorMessage = "El DNI de la persona no debe superar los 8 caracteres")]
+        [MaxLength(10, ErrorMessage = "El DNI de la persona no debe superar los 10 caracteres")]
         public string DNI { get; set; }
 
 
